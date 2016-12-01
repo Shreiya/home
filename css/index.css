@@ -184,8 +184,8 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #18BC9C;
-  color: grey;
+  background: #6FDB59;
+  color: #507255;
 }
 @media (max-width: 767px) {
   section {
@@ -301,7 +301,7 @@ form .row:first-child .floating-label-form-group {
   margin-top: 100px;
 }
 
-/*footer h3 {
+footer h3 {
   margin-bottom: 30px;
 }
 footer .footer-above {
@@ -314,7 +314,7 @@ footer .footer-col {
 footer .footer-below {
   padding: 25px 0;
   background-color: #233140;
-}*/
+}
 .btn-outline {
   color: white;
   font-size: 20px;
