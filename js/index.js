@@ -1,4 +1,4 @@
-// Freelancer Theme JavaScript
+
 
 
 
