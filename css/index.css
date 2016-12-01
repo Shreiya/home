@@ -1,11 +1,7 @@
-/*!
- * Start Bootstrap - Freelancer v3.3.7+1 (http://startbootstrap.com/template-overviews/freelancer)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
+
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/
 }
 p {
   font-size: 20px;
@@ -18,7 +14,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #18BC9C;
+  color: grey;
   outline: none;
 }
 h1,
@@ -28,8 +24,9 @@ h4,
 h5,
 h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-weight: 700;
+  color: grey;
 }
 hr.star-light,
 hr.star-primary {
@@ -69,7 +66,7 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: #18BC9C;
+  background: white;
   color: white;
 }
 header .container {
@@ -83,9 +80,10 @@ header img {
 header .intro-text .name {
   display: block;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-weight: 700;
   font-size: 2em;
+  color: grey;
 }
 header .intro-text .skills {
   font-size: 1.25em;
@@ -104,9 +102,9 @@ header .intro-text .skills {
   }
 }
 .navbar-custom {
-  background: #2C3E50;
+  background: #62E075;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-weight: 700;
   border: none;
 }
@@ -114,48 +112,48 @@ header .intro-text .skills {
   outline: none;
 }
 .navbar-custom .navbar-brand {
-  color: white;
+  color: #507255;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: white;
+  color: grey;
 }
 .navbar-custom .navbar-nav {
   letter-spacing: 1px;
 }
 .navbar-custom .navbar-nav li a {
-  color: white;
+  color: #507255;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #18BC9C;
+  color: grey;
   outline: none;
 }
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
-  color: white;
+  color: #507255;
 }
 .navbar-custom .navbar-nav li.active a {
-  color: white;
-  background: #18BC9C;
+  color: #507255;
+  background: #62E075;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
-  color: white;
-  background: #18BC9C;
+  color: grey;
+  background: #62E075;
 }
 .navbar-custom .navbar-toggle {
-  color: white;
-  text-transform: uppercase;
+  color: grey;
+  /*text-transform: uppercase;*/
   font-size: 10px;
-  border-color: white;
+  border-color: grey;
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
   background-color: #18BC9C;
-  color: white;
+  color: grey;
   border-color: #18BC9C;
 }
 @media (min-width: 768px) {
@@ -187,7 +185,7 @@ section h2 {
 }
 section.success {
   background: #18BC9C;
-  color: white;
+  color: grey;
 }
 @media (max-width: 767px) {
   section {
@@ -294,10 +292,16 @@ section.success {
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
 }
-footer {
-  color: white;
+
+
 }
-footer h3 {
+#map {
+  width: 100%;
+  height: 200px;
+  margin-top: 100px;
+}
+
+/*footer h3 {
   margin-bottom: 30px;
 }
 footer .footer-above {
@@ -310,7 +314,7 @@ footer .footer-col {
 footer .footer-below {
   padding: 25px 0;
   background-color: #233140;
-}
+}*/
 .btn-outline {
   color: white;
   font-size: 20px;
