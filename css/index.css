@@ -88,6 +88,7 @@ header .intro-text .name {
 header .intro-text .skills {
   font-size: 1.25em;
   font-weight: 300;
+  color: black;
 }
 @media (min-width: 768px) {
   header .container {
@@ -323,6 +324,9 @@ form .row:first-child .floating-label-form-group {
 
 footer h3 {
   margin-bottom: 30px;
+}
+#hide {
+  visibility: hidden;
 }
 footer .footer-above {
   padding-top: 50px;
