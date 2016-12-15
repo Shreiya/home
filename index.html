@@ -230,14 +230,26 @@
                             <div class="form-group col-xs-12">
                                 <button type="submit" class="btn btn-success btn-lg"/>Let's go!</input>
                                 <input type="hidden" name="_next" value="http://shreiya.me" />
+
                             </div>
                         </div>
+                        <!-- <div class="alert alert-success alert-dismissible fade in">
+                          <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                          <strong>Success!</strong> Indicates a successful or positive action.
+                        </div> -->
                     </form>
                 </div>
             </div>
         </div>
     </section>
-
+    <script>
+        $('#form').submit(function(e) {
+            $('#messages').removeClass('hide').addClass('alert alert-success alert-dismissible').slideDown().show();
+            $('#messages_content').html('<h4>MESSAGE HERE</h4>');
+            $('#modal').modal('show');
+            e.preventDefault();
+        });
+    </script>
     <!-- Footer -->
     <footer class="text-center">
         <div class="footer-above">
