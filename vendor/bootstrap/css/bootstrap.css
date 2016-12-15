@@ -1158,6 +1158,10 @@ hr {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
+
+  .glyphicon-search:before {
+    content: "\e003";
+  }
 }
 .sr-only-focusable:active,
 .sr-only-focusable:focus {
