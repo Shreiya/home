@@ -68,6 +68,7 @@ header {
   text-align: center;
   background: white;
   color: white;
+  background-size: cover;
 }
 header .container {
   padding-top: 100px;
