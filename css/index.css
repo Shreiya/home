@@ -362,8 +362,20 @@ footer h3 {
   margin-bottom: 30px;
 }
 #hide {
-  visibility: hidden;
+  visibility: visible;
+  color: black;
 }
+
+footer h3 a {
+  color: #333;
+  text-decoration: none;
+}
+
+footer h3 a:hover {
+  text-decoration: none;
+  color: grey;
+}
+
 footer .footer-above {
   padding-top: 50px;
   background-color: #FFE20D;
