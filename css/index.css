@@ -203,6 +203,10 @@ section.success {
   .intro-text {
     background-size: cover;
   }
+
+  h2 .work {
+    margin-top: 60%
+  }
   section {
     padding: 75px 0;
   }
