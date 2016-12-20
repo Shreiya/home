@@ -199,6 +199,10 @@ section.success {
   color: #2B2B2B;
 }
 @media (max-width: 767px) {
+
+  .intro-text {
+    background-size: cover;
+  }
   section {
     padding: 75px 0;
   }
