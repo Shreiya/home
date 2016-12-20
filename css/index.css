@@ -200,13 +200,10 @@ section.success {
 }
 @media (max-width: 767px) {
 
-  .intro-text {
-    background-size: cover;
+  #portfolio {
+    margin-top: 50%;
   }
 
-  h2 .work {
-    margin-top: 90%
-  }
   section {
     padding: 75px 0;
   }
