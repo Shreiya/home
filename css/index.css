@@ -90,6 +90,7 @@ header .intro-text .skills {
   font-size: 1.25em;
   font-weight: 300;
   color: black;
+  margin-top: 25%;
 }
 @media (min-width: 768px) {
   header .container {
@@ -105,6 +106,10 @@ header .intro-text .skills {
 
   .portfolio #work {
     margin-top: -12.8%;
+  }
+
+  header .intro-text {
+    margin-top: -2.3%;
   }
 }
 
@@ -207,6 +212,10 @@ section.success {
   color: #2B2B2B;
 }
 @media (max-width: 767px) {
+
+  header .intro-text {
+    margin-top: 30%;
+  }
 
   #portfolio .work {
     margin-top: -35%;
