@@ -1124,20 +1124,20 @@ img {
   max-width: 100%;
   height: auto;
   -webkit-filter: grayscale(100%);
-  -webkit-transition: .5s ease-in-out;
+  -webkit-transition: .4s ease-in-out;
   -moz-filter: grayscale(100%);
-  -moz-transition: .5s ease-in-out;
+  -moz-transition: .4s ease-in-out;
   -o-filter: grayscale(100%);
-  -o-transition: .5s ease-in-out;
+  -o-transition: .4s ease-in-out;
 }
 
 .img-responsive:hover{
   -webkit-filter: grayscale(0%);
-  -webkit-transition: .5s ease-in-out;
+  -webkit-transition: .4s ease-in-out;
   -moz-filter: grayscale(0%);
-  -moz-transition: .5s ease-in-out;
+  -moz-transition: .4s ease-in-out;
   -o-filter: grayscale(0%);
-  -o-transition: .5s ease-in-out;
+  -o-transition: .4s ease-in-out;
 }
 .img-rounded {
   border-radius: 6px;
