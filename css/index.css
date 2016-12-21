@@ -83,7 +83,7 @@ header .intro-text .name {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   /*text-transform: uppercase;*/
   font-weight: 700;
-  font-size: 2em;
+  font-size: 72px;
   color: #2B2B2B;
 }
 header .intro-text .skills {
