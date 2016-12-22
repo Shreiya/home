@@ -253,6 +253,10 @@ section.success {
     height: 100%;
     opacity: 1;
   }
+
+  #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+    margin-top: -12px;
+  }
 }
 
 
@@ -495,6 +499,10 @@ fieldset[disabled] .btn-primary.active {
   color: #333;
   background-color: #e7e7e7;
   border-color: #e7e7e7;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+
 }
 .btn-success:active,
 .btn-success.active,
