@@ -623,3 +623,12 @@ fieldset[disabled] .btn-success.active {
   opacity: 0;
   display: none;
 }
+
+#cookbook {
+  color: purple;
+  text-decoration: none;
+}
+
+a #cookbook:hover {
+  color: black;
+}
