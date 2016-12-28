@@ -115,6 +115,14 @@ header .intro-text .skills {
   header .intro-text {
     margin-top: -2.3%;
   }
+
+  img #largeScreen {
+    webkit-filter: grayscale(100%);
+  }
+
+  img #largeScreen:hover {
+    webkit-filter: grayscale(0%);
+  }
 }
 
 a:hover {

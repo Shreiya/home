@@ -1318,6 +1318,14 @@ p {
   .lead {
     font-size: 21px;
   }
+
+  #largeScreen {
+    -webkit-filter: grayscale(100%);
+  }
+
+  #largeScreen:hover {
+    -webkit-filter: grayscale(0%);
+  }
 }
 small,
 .small {
