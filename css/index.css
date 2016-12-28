@@ -228,6 +228,9 @@ section.success {
     margin-top: 50%;
   }
 
+  #portfolio .portfolio-item .portfolio-link .caption {
+    filter: grayscale(0%);
+}
   section {
     padding: 75px 0;
   }
@@ -260,20 +263,20 @@ section.success {
 }
 
 
-.grayscale{
+/*.grayscale{
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);  /* For Webkit browsers */
-    filter: gray;  /* For IE 6 - 9 */
-    -webkit-transition: all .6s ease;  /* Transition for Webkit browsers */
-		height: 250px;
+    /*filter: gray;  /* For IE 6 - 9 */
+    /*-webkit-transition: all .6s ease;  /* Transition for Webkit browsers */
+		/*height: 250px;
 		width: 150px;
-}
+}*/
 
-grayscale:hover {
+/*grayscale:hover {
     filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
     filter: none;
-}
+}*/
 
 #portfolio .portfolio-item {
   margin: 0 0 15px;
@@ -629,6 +632,6 @@ fieldset[disabled] .btn-success.active {
   text-decoration: none;
 }
 
-a #cookbook:hover {
+a:hover {
   color: black;
 }
